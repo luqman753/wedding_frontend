@@ -1,0 +1,55 @@
+.center {
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  /* Styling of the Main Content start from Here */
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  .mymainSection{
+    display: flex;
+    flex-direction: column ; 
+  }
+  .notifcationContainer{
+      align-self: flex-start;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .notificationText{
+      font-size: 35px;
+      font-family:  sans-serif;
+      font-weight: 100;
+      margin-left: 1rem;
+  }
+  .card{
+      display: block;
+      margin: auto;
+      width: 90vw;
+      height: 24vh;
+      background-color: #F6E39C;
+      border-radius: 25px;
+      margin-bottom: 10px;
+      padding: 20px;
+  }
+  .cardTopText{
+      font-family:  sans-serif;
+      font-size: 40px;
+      font-weight: 100;
+  }
+  .description{
+    margin-left: 2rem;
+margin-top: 1rem;
+      text-align: start;
+      font-family:  sans-serif;
+      font-size: 20px;
+      font-weight: 100;
+  }
+  .clickhere{
+      text-decoration: none;
+      color: black;
+  }

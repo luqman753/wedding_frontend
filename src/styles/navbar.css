@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.myactivebutton {
+  /* Add your styles for the active link here */
+  color: black;
+  font-weight: bold;
+  background-color: wheat;
+  font-size: 50px;
+}
+
+/* Constant Styling */
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.navBar {
+  height: 19vh;
+  background-color: #b41f31;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.navBarLeft {
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.navBarLeftText {
+}
+.picture1 {
+  width: 100px;
+  margin-left: 35px;
+}
+.navbarMidlle {
+  /* width: 50vw; */
+  display: flex;
+  padding: 20px;
+}
+li {
+  list-style: none;
+}
+.leftSlider {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 14vw;
+  height: 85vh;
+  background-color: #f6e39c;
+}
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin-right: 3vw;
+}
+.navBarRight {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.logo {
+  width: 200px;
+}
+.button {
+  background: #b41f31;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 15px;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 200;
+  font-family: sans-serif;
+}
+.leftSide-button {
+  cursor: pointer;
+  background: #b41f31;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 15px;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 200;
+  font-family: sans-serif;
+}
+
+.leftSide-button-active{
+  background-color:#ED7D31 !important;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 1350px) {
+  .leftSlider {
+    width: 18vw;
+  }
+}
+@media only screen and (max-width: 915px) {
+  .leftSlider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 34vw;
+  }
+}
+@media only screen and (max-width: 842px) {
+  /* For mobile phones: */
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+  }
+  .navBarLeft {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+  }
+  .navBarLeftText {
+    font-size: 26px;
+  }
+  .Username {
+    font-size: 30px;
+  }
+  .navbarMidlle {
+    width: 100vw;
+    display: flex;
+    margin: 0px;
+    padding: 1px;
+  }
+  .navBarRight {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .logo {
+    margin-right: 15px;
+    width: 100px;
+  }
+  .picture1 {
+    width: 50px;
+  }
+  .Username {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 842px) {
+  a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .leftSlider {
+    width: 41vw;
+  }
+}
+@media only screen and (max-width: 604px) {
+  .leftSlider {
+    width: 44vw;
+  }
+}
+@media only screen and (max-width: 546px) {
+  .leftSlider {
+    width: 51vw;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .leftSlider {
+    width: 51vw;
+  }
+  .button {
+    width: 8rem;
+  }
+}
+
+@media only screen and (max-width: 447px) {
+  .leftSlider {
+    width: 51vw;
+  }
+  a {
+    font-size: 15px;
+  }
+}
+/* navbar.css */
+.linkactive {
+  color: white;
+}
+@media only screen and (max-width: 400px) {
+  .navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    margin-right: 3vw;
+  }
+  .leftSlider {
+    width: 68vw;
+  }
+  a {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 389px) {
+  .navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    margin-right: 3vw;
+  }
+  .leftSlider {
+    width: 70vw;
+  }
+  a {
+    font-size: 12px;
+  }
+  .button {
+    width: 7rem;
+  }
+}
+@media only screen and (max-width: 341px) {
+  .navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    margin-right: 3vw;
+  }
+  .leftSlider {
+    width: 74vw;
+  }
+  a {
+    font-size: 12px;
+  }
+  .button {
+    width: 7rem;
+  }
+}
+@media only screen and (max-width: 314px) {
+  .leftSlider {
+    width: 76vw;
+  }
+
+  .button {
+    width: 6rem;
+  }
+}
+.pointer{
+  cursor: pointer;
+}
+.activeNavBarlink{
+  background-color: wheat;
+}

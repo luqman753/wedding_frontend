@@ -1,0 +1,47 @@
+
+.largeCalender > .react-calendar{
+    height: 79vh;
+    width: 100vw;
+    padding: 1rem;
+}
+.largeCalender > .react-calendar__viewContainer{
+    height: 70vh;
+}
+.largeCalender > .react-calendar__tile {
+    height: 80px; /* Adjust the height as needed */
+    width: 80px; /* Adjust the width as needed */
+
+    border: 2px solid black; /* Add a 2px solid black border */
+  }
+  
+.largeCalender > .react-calendar__month-view__days__day {
+ 
+    font-size: 2rem; /* Adjust the font size as needed */
+    height: 5rem;
+}
+.largeCalender > .react-calendar__navigation {
+    font-size: 2rem; /* Adjust the font size as needed */
+}
+.largeCalender > .tile-with-data .data {
+    font-size: 2rem; /* Adjust the font size as needed */
+  }
+  .red-date {
+  color: red;
+}
+
+/* calender.css */
+.black-date {
+    color: black;
+  }
+  
+/* Remove the right border from the last column of tiles */
+
+  .largeCalender  .react-calendar__month-view__days__day--weekend:nth-child(n),
+  .largeCalender  .react-calendar__month-view__days__day:nth-child(n) {
+      border: 1px solid black;
+      padding: 20px 0px ;
+      font-size: 18px;
+  }
+.data{
+    margin-top: 1rem;
+}

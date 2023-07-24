@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* border: 10px solid green; */
+  height: 35rem;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.matchText {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.matchidstring {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.matchdescription {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.matchContainer {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.matchSection {
+  display: flex;
+}
+.matchuser1 {
+  border: 1px solid black;
+  margin-right: 2rem;
+}
+.matchuser2 {
+  border: 1px solid black;
+  margin-left: 2rem;
+}
+.fontsmatch {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.blue {
+  color: rgb(81, 178, 216);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* .activebutton {
+  background-color: #ed7d31;
+} */
+textarea {
+  background-color: #e7e6e6;
+  margin-right: 3rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.toastSection {
+  position: absolute;
+  top: 11rem;
+  right: 2rem;
+}
+.mytoastText{
+    
+font-size: 1.2rem;
+font-weight: 100;
+}
+.mytoast1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 12rem;
+    width: 22rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background-color: #f6e39c;
+    padding-left: 1rem;
+}
+.d-flex{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.boldClass{
+    font-weight: bold;
+    margin-right: 0.8rem;
+}
+.mytoast2{
+        background-color: white;
+        height: 8rem;
+        width: 21rem;
+        border: 2px solid black;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        display: grid;
+        place-items: center;
+    
+}

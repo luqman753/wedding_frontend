@@ -1,0 +1,48 @@
+/* Container for the about section */
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Opacity overlay on the image background */
+.about-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Adjust opacity by changing the last value (0.5) */
+}
+
+/* Text centered in the container */
+.about-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 70vw;
+}
+
+.aboutbutton{
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+}

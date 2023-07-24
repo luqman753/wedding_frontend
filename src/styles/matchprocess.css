@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainSectionprocess {
+  display: flex;
+  flex-direction: row;
+  /* border: 10px solid green; */
+  height: 35rem;
+}
+.mytoastt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 12rem;
+  width: 35rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  background-color: #f6e39c;
+  padding-left: 1rem;
+}
+.closetoastcross {
+  display: flex;
+  justify-content: "flex-end";
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+.userstext {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.usersdescription {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+.tdmatchprocess {
+  padding: 15px;
+  text-align: center;
+  margin: 50px;
+  border: 1px solid #ffffff;
+  background-color: #a9d18e;
+  font-size: 1.3rem;
+}
+
+th {
+  background-color: #ed7d31;
+  color: white;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.activebutton {
+  background-color: #ed7d31;
+}
+
+@media only screen and (max-width: 546px) {
+  input {
+    width: 183px;
+  }
+  label {
+    font-size: 13px;
+  }
+  .inputFieldContainer {
+    margin-right: 0px;
+  }
+  table {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 498px) {
+  input {
+    width: 183px;
+  }
+  .inputContainer {
+    width: 65vw;
+  }
+  label {
+    font-size: 13px;
+  }
+  .inputFieldContainer {
+    margin-right: 0px;
+  }
+  table {
+    width: 15%;
+  }
+  td {
+    padding: 3px;
+  }
+  th {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 447px) {
+  input {
+    width: 183px;
+    margin-right: 5px;
+    width: 161px;
+  }
+  .inputContainer {
+    width: 65vw;
+  }
+  label {
+    font-size: 13px;
+  }
+  .inputFieldContainer {
+    margin-right: 0px;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  th {
+    padding: 0px;
+  }
+  td {
+    padding: 3px;
+  }
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 390px) {
+  input {
+    width: 140px;
+    margin-right: 5px;
+    width: 161px;
+  }
+  .inputContainer {
+    width: 65vw;
+  }
+  label {
+    font-size: 13px;
+  }
+  .inputFieldContainer {
+    margin-right: 0px;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  td {
+    padding: 0px;
+  }
+}

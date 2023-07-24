@@ -1,25 +1,80 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './pages/Home';
+import Notifications from './pages/Notifications';
+import NewMatches from './pages/NewMatches';
+import DetectedMatch from './pages/DetectedMatch';
+import MatchProcess from './pages/MatchProcess';
+import EndProcess from './pages/EndProcess';
+import MeetingSummary from './pages/MeetingSummary';
+import 'react-toastify/dist/ReactToastify.css';
+import User from './pages/User';
+import About from './pages/About';
+import Join from './pages/Join';
+import Calender from './pages/Calender';
+import PersonalInfo from './pages/PersonalInfo';
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>
+  },
+  {
+    path: "/notifications",
+    element: <Notifications/>
+  },
+  {
+    path: "/newmatches",
+    element: <NewMatches/>
+  },
+  {
+    path: "/detectedmatch",
+    element: <DetectedMatch/>
+  },
+  {
+    path: "/matchprocess",
+    element: <MatchProcess/>
+  },
+  {
+    path: "/endprocess",
+    element: <EndProcess/>
+  },
+  {
+    path: "/meetingsummary",
+    element: <MeetingSummary/>
+  },
+  {
+    path: "/candidates",
+    element: <User/>
+  },
+  {
+    path: "/about",
+    element: <About/>
+  },
+  {
+    path: "/join",
+    element: <Join/>
+  },
+  {
+    path: "/calender",
+    element: <Calender/>
+  },
+  {
+    path: "/personalinformation",
+    element: <Calender/>
+  },
+  {
+    path: "/candidates/personalinfo",
+    element: <PersonalInfo/>
+  },
+]);
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <RouterProvider router={router} />
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,151 @@
+.aa {
+    color: red;
+}
+
+.containerChildDiv {
+    border-left: 80px solid #B41F31;
+    border-right: 80px solid #B41F31;
+    border-bottom: 20px solid #B41F31;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btnBackground {
+    width: 120px;
+    height: 32px;
+    background: #B41F31;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+}
+
+.buttonJoin {
+    height: 50px;
+    font-size: 18px;
+    padding: 0px 45px;
+    background: #B41F31;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+
+}
+
+.buttonAbout {
+    font-size: 18px;
+    border-radius: 8px;
+    height: 50px;
+    padding: 0px 40px;
+    background: #B41F31;
+    color: white;
+    border: 1px solid black;
+}
+
+.form-control {
+    height: 50px;
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.toast {
+    padding-top: 20px;
+}
+
+.btnDiv {
+    position:absolute;
+        margin-top: 30px;
+padding: 0px 40px 0px 30px;
+z-index: 2
+}
+
+.btnDiv1 {
+    margin-top: 30px;
+    z-index: 2
+}
+
+.signInDiv {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.buttonSIgnIn {
+    font-size: 18px;
+    width: 100%;
+    background: #B41F31;
+    border-radius: 8px;
+    height: 50px;
+    padding: 0px 35px;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-center {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -35px;
+    display: flex;
+    justify-content: center;
+}
+
+.formDiv {
+    display: block;
+    margin: auto;
+    z-index: 2;
+}
+
+.container:nth-child(1) {
+    width: 100% !important;
+    max-width: 100vw !important;
+    padding: 0 !important;
+}
+
+.label,
+.input {
+
+    text-align: end;
+}
+
+.footerPics {
+    background: #b41f31;
+}
+
+.Image1 {
+    width: 100%;
+    height: 110%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Image2 {
+    height: 60px;
+    padding: 0px 15px;
+}
+
+.textmail {
+    color: #B95E69;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin: 0px 15px;
+}
+
+.lineHeight {
+    height: 2px;
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    background: #b95e69;
+}
+tbody{
+    overflow: scroll;
+}

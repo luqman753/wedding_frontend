@@ -1,0 +1,23 @@
+.mylabel {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.myinput {
+  height: 3rem;
+  width: 14rem;
+  background: #f2f2f2;
+  font-size: 1.5rem;
+}
+.mybutton{
+    background: #b41f31;
+  background-color: rgb(180, 31, 49);
+width: 12rem;
+height: 4rem;
+border-radius: 15px;
+margin-top: 10px;
+color: white;
+text-decoration: none;
+font-size: 19px;
+font-weight: 200;
+font-family: sans-serif;
+}
